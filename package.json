@@ -1,0 +1,23 @@
+{
+  "name": "slack bot",
+  "version": "1.0.0",
+  "description": "Slack bot",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonmorazav/manateeslackbot"
+  },
+  "bugs": {
+    "url": "https://github.com/jonmorazav/manateeslackbot/issues",
+    "email": "jonmorazav@yahoo.com"
+  },
+  "author": "Jonathan Morales <jonmorazav@yahoo.com>",
+  "dependencies": {
+    "@slack/client": "^4.1.0",
+    "body-parser": "^1.18.2",
+    "express": "~3.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
